@@ -14,8 +14,10 @@ namespace KafkaEFCore.Producer.DTOs
         public object Data { get; set; }
         public EntityState State { get; set; }
     }
-    public class DbContextMessage
+    public class TopicMessage
     {
-        public IList<EntityMessage> Entity { get; set; }
+        public string Topic { get; set; }
+        public Type TopicEntity { get; set; }
+        public IList<EntityMessage> Entities { get; set; }
     }
 }
