@@ -1,0 +1,1 @@
+caffold-DbContext "Server=master.node.local,32433;Database=ATM.AssetManagement.Production;TrustServerCertificate=True;MultipleActiveResultSets=true;User ID=Sa;Password=Sa123@@@" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models

@@ -27,6 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\KafkaEfCore.DbContexts\KafkaEfCore.DbContexts.csproj" />
     <ProjectReference Include="..\KafkaEFCore.Producer\KafkaEFCore.Producer.csproj" />
   </ItemGroup>
 

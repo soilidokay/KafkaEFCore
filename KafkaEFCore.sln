@@ -7,6 +7,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KafkaEFCore.Producer", "Kaf
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KafkaEFCore.Producer.Tests", "KafkaEFCore.Producer.Tests\KafkaEFCore.Producer.Tests.csproj", "{C0CC05D5-FB4A-41F0-93DB-DB430E70338F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaEFCore.Consumer", "KafkaEFCore.Consumer\KafkaEFCore.Consumer.csproj", "{78DFCB56-1896-469B-B1EA-B1DDF7700410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaEfCore.Domain", "KafkaEfCore.Domain\KafkaEfCore.Domain.csproj", "{0FD2A4EA-B463-49FD-8038-11F6D70D251B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KafkaEfCore.DbContexts", "KafkaEfCore.DbContexts\KafkaEfCore.DbContexts.csproj", "{E44396DC-C955-488F-88F4-7E51EB2196D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +27,18 @@ Global
 		{C0CC05D5-FB4A-41F0-93DB-DB430E70338F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0CC05D5-FB4A-41F0-93DB-DB430E70338F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0CC05D5-FB4A-41F0-93DB-DB430E70338F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78DFCB56-1896-469B-B1EA-B1DDF7700410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78DFCB56-1896-469B-B1EA-B1DDF7700410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78DFCB56-1896-469B-B1EA-B1DDF7700410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78DFCB56-1896-469B-B1EA-B1DDF7700410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FD2A4EA-B463-49FD-8038-11F6D70D251B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FD2A4EA-B463-49FD-8038-11F6D70D251B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FD2A4EA-B463-49FD-8038-11F6D70D251B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FD2A4EA-B463-49FD-8038-11F6D70D251B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E44396DC-C955-488F-88F4-7E51EB2196D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E44396DC-C955-488F-88F4-7E51EB2196D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E44396DC-C955-488F-88F4-7E51EB2196D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E44396DC-C955-488F-88F4-7E51EB2196D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

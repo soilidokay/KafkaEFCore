@@ -15,6 +15,8 @@ namespace KafkaEFCore.Producer.Options
         }
         public ProducerConfig Config { get; set; }
         public int PushBatch { get; set; } = 10;
+        public string DatabaseTopic { get; set; }
         public Type[] TopicEntities { get; set; }
+        public bool FullDatabase { get; set; }
     }
 }
