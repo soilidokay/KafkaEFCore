@@ -15,6 +15,10 @@ namespace KafkaEFCore.Producer.Implementations
     {
         public readonly ILogger<KafkaDbContextBase> _logger;
         public readonly DbContextProducer _Producer;
+        protected KafkaDbContextBase()
+        {
+            
+        }
         protected KafkaDbContextBase(DbContextOptions dbContextOptions) : base(dbContextOptions)
         {
             _logger = Database.GetService<ILogger<KafkaDbContextBase>>();

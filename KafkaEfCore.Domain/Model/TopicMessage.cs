@@ -38,10 +38,9 @@ namespace KafkaEfCore.Domain.Model
         Added = 4,
         Unknown = 5,
     }
-
-    public class EntityMessage
+    public class EntityMessage<TModel>
     {
-        public object Data { get; set; }
+        public TModel Data { get; set; }
         public string State { get; set; }
         public string FullClassName { get; set; }
         [JsonIgnore]
@@ -49,6 +48,9 @@ namespace KafkaEfCore.Domain.Model
         {
             get => Enum.TryParse(State, out KEntityState state) ? state : KEntityState.Unknown;
         }
+    }
+    public class EntityMessage: EntityMessage<object>
+    {
     }
     public class TopicMessage
     {
