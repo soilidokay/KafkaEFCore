@@ -17,7 +17,8 @@ namespace KafkaEFCore.Producer.Tests
         public const string ConnectionString = "Server=master.node.local,32433;Database=ATM.KafkaDbContext.Test;TrustServerCertificate=True;MultipleActiveResultSets=true;User ID=Sa;Password=Sa123@@@";
         public const string ConnectionStringATM = "Server=master.node.local,32433;Database=ATM.AssetManagement.Production;TrustServerCertificate=True;MultipleActiveResultSets=true;User ID=Sa;Password=Sa123@@@";
         public const string ConnectionStringTarget = "Server=master.node.local,32433;Database=ATM.AtmTargetContext.Test;TrustServerCertificate=True;MultipleActiveResultSets=true;User ID=Sa;Password=Sa123@@@";
-        public const string ConnectionStringReplicas = "Server=master.node.local,32433;Database=ATM.AssetManagement.Repli;TrustServerCertificate=True;MultipleActiveResultSets=true;User ID=Sa;Password=Sa123@@@";
+        public const string ConnectionStringReplicas = "Server=master.node.local,32433;Database=KafkaSourceDatabase;TrustServerCertificate=True;MultipleActiveResultSets=true;User ID=Sa;Password=Sa123@@@";
+        public const string ConnectionStringdb_distibutted = "Server=master.node.local,32433;Database=db_distibutted;TrustServerCertificate=True;MultipleActiveResultSets=true;User ID=Sa;Password=Sa123@@@";
 
         public static IServiceCollection GetServices()
         {
